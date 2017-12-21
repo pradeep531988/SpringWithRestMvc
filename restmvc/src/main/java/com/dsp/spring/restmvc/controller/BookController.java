@@ -15,11 +15,22 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dsp.spring.restmvc.model.Book;
 import com.dsp.spring.restmvc.service.IBookService;
 
+/**
+ * 
+ * @author psubrama
+ *
+ */
 @RestController
 public class BookController {
     
     @Autowired
     private IBookService bookService;
+    
+    /*---get all books---*/
+    @GetMapping("/isActive")
+    public ResponseEntity<String> isActive() {
+        return ResponseEntity.ok().body("Application is active");
+    }
     
     /*---Add new book---*/
     @PostMapping("/book")

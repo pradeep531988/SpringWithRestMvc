@@ -14,6 +14,11 @@ import org.springframework.stereotype.Repository;
 
 import com.dsp.spring.restmvc.model.Book;
 
+/**
+ * 
+ * @author psubrama
+ *
+ */
 @Repository
 public class BookDaoImp implements IBookDao {
     

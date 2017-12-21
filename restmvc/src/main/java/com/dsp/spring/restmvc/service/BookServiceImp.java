@@ -9,6 +9,11 @@ import org.springframework.transaction.annotation.Transactional;
 import com.dsp.spring.restmvc.dao.IBookDao;
 import com.dsp.spring.restmvc.model.Book;
 
+/**
+ * 
+ * @author psubrama
+ *
+ */
 @Service
 @Transactional(readOnly = true)
 public class BookServiceImp implements IBookService {

@@ -4,6 +4,11 @@ import java.util.List;
 
 import com.dsp.spring.restmvc.model.Book;
 
+/**
+ * 
+ * @author psubrama
+ *
+ */
 public interface IBookService {
     
     long save(Book book);

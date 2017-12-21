@@ -1,8 +1,11 @@
 package com.dsp.spring.restmvc.config;
 
+/**
+ * 
+ * @author psubrama
+ *
+ */
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-
-import com.dsp.spring.restmvc.config.AppConfig;
 
 public class DspWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     
